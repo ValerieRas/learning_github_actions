@@ -1,0 +1,16 @@
+{
+  "name": "learning_github_actions",
+  "version": "1.0.0",
+  "description": "learning  about github actions",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValerieRas/learning_github_actions.git"
+  },
+  "author": "Val",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ValerieRas/learning_github_actions/issues"
+  },
+  "homepage": "https://github.com/ValerieRas/learning_github_actions#readme"
+}
