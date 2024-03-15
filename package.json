@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "learning  about github actions",
   "main": "index.js",
-  "scripts": {
-    "test": "npm test"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ValerieRas/learning_github_actions.git"
