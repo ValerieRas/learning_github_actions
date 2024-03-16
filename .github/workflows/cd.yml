@@ -19,6 +19,6 @@ jobs:
           username: "adminlocal"
           key: ${{ secrets.SSH_KEY }}
           script: |
-            cd /Users/Rasol/OneDrive/Documents/CDA_DEVOPS/PROJETS/Docker-TP-4.0--Nest-API
+            cd /Docker-TP-4.0--Nest-API
             git pull
             ./deploy.sh
