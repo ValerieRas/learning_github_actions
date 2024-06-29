@@ -20,8 +20,4 @@ jobs:
           password: ${{ secrets.VPS_PWD }}
           port: ${{ secrets.VPS_PORT }}
           script: |
-            cd /Docker-TP-4.0--Nest-API
-            git pull origin main
-            npm install
-            npm run build
-            pm2 restart all
+            mkdir test
