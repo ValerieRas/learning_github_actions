@@ -17,7 +17,7 @@ jobs:
         with:
           host: ${{ secrets.VPS_HOST }}
           username: ${{ secrets.VPS_USERNAME }}
-          password: ${{ secrets.VPS_PWD}}
+          password: test
           port: ${{ secrets.VPS_PORT }}
           script: |
             cd /Docker-TP-4.0--Nest-API
