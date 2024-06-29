@@ -20,7 +20,7 @@ jobs:
           password: ${{ secrets.VPS_PWD }}
           port: ${{ secrets.VPS_PORT }}
           source: Docker-TP-4.0--Nest-API
-          target: Docker-TP-4.0--Nest-API
+          target: .
       - name: SSH and Deploy
         uses: appleboy/ssh-action@master
         with:
