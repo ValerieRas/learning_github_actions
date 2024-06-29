@@ -17,8 +17,8 @@ jobs:
         with:
           host: ${{ secrets.VPS_HOST }}
           username: ${{ secrets.VPS_USERNAME }}
-          port: ${{ secrets.VPS_PORT }}
           password: ${{ secrets.VPS_PWD}}
+          port: ${{ secrets.VPS_PORT }}
           script: |
             cd /Docker-TP-4.0--Nest-API
             git pull origin main
