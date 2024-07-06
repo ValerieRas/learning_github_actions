@@ -31,4 +31,6 @@ jobs:
           script: |
             cd Docker-TP-4.0--Nest-API
             docker build -t my-nest-api .
-            docker run -d -p 3000:3000 my-nest-api
+            docker stop my-nest-api || true
+            docker rm my-nest-api || true
+            docker run -d -p 9039:3000 --name my-nest-api my-nest-api
